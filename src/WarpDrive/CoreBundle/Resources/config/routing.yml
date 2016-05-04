@@ -1,0 +1,12 @@
+warp_drive_user:
+    resource: "@WarpDriveUserBundle/Resources/config/routing/user.yml"
+    prefix:   /user
+
+warp_drive_interface_test:
+    resource: "@WarpDriveInterfaceTestBundle/Resources/config/routing.yml"
+    prefix:   /interface_test
+
+warp_drive_design_patterns:
+    resource: "@WarpDriveDesignPatternsBundle/Resources/config/routing.yml"
+    prefix:   /design
+

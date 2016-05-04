@@ -1,0 +1,8 @@
+warp_drive_design_patterns_homepage:
+    path:     /
+    defaults: { _controller: WarpDriveDesignPatternsBundle:Default:index }
+
+warp_drive_design_patterns_weapons:
+    path:     /weapons
+    defaults: { _controller: WarpDriveDesignPatternsBundle:Client:index }
+

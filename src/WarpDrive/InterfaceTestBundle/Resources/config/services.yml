@@ -1,0 +1,4 @@
+services:
+#    warp_drive_interface_test.example:
+#        class: WarpDrive\InterfaceTestBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

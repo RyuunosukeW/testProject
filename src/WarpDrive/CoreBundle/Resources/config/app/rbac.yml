@@ -1,0 +1,15 @@
+sylius_rbac:
+    driver: doctrine/orm # Configure the doctrine orm driver used in the documentation.
+
+    resources:
+            role:
+                classes:
+                    form:
+                        choice: Sylius\Bundle\RbacBundle\Form\Type\RoleEntityType
+            permission:
+                classes:
+                    form:
+                        choice: Sylius\Bundle\RbacBundle\Form\Type\PermissionEntityType
+
+
+

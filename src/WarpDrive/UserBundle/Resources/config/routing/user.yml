@@ -1,0 +1,12 @@
+warp_drive_user_homepage:
+    path:     /
+    defaults: { _controller: WarpDriveUserBundle:Default:index }
+
+
+warp_drive_security_:
+        resource: "@WarpDriveUserBundle/Resources/config/routing/security.yml"
+
+
+warp_drive_user_dashboard:
+    path:     /dashboard
+    defaults: { _controller: WarpDriveUserBundle:Index:index }
